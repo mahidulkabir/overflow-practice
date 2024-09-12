@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Overflow Practice</title>
+        <style>
+            .box{
+                width:500px;
+                height: 300px;
+                border:1px solid steelblue;
+                
+            }
+            .one{
+                /* overflow:scroll; */
+                /* white-space:nowrap; */
+                overflow:scroll;
+                overflow-x:hidden;
+                text-overflow:ellipsis;
+            }
+            .ellipsis{
+                width: 300px;
+                border:1px solid red;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        </style>
+    </head>
+    <body>
+        <p title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non obcaecati ab sed ducimus nesciunt quod vel sunt beatae dolores fugit maiores, soluta id fugiat voluptatibus, veniam facere aut! " class="ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non obcaecati ab sed ducimus nesciunt quod vel sunt beatae dolores fugit maiores, soluta id fugiat voluptatibus, veniam facere aut! </p>
+        <div title="hi! dont copy!" class="box one">
+            <h3>box-1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit velit quo suscipit asperiores esse neque eos quasi exercitationem, eum saepe sequi. Tenetur aperiam quibusdam quo maiores illum incidunt ducimus asperiores amet commodi placeat? Doloribus, minus nesciunt! Placeat dolore natus suscipit dicta officiis animi voluptates cumque aut sit dolorem praesentium ullam aliquam quae veritatis dignissimos, hic temporibus ad quas qui facilis consectetur consequuntur expedita fuga quis. Velit at ad tempore accusamus sit fugiat magnam, esse, voluptate suscipit exercitationem blanditiis maiores repudiandae provident molestias aliquid iure a et ducimus quas accusantium quasi officiis dolore quos voluptas! Sunt corporis illo sed consequatur sapiente ut temporibus doloribus, hic vero sit cum necessitatibus, animi nesciunt recusandae doloremque. Dicta sunt non sequi architecto quos asperiores magni dolorum enim. Sunt voluptates ullam deserunt quo, ipsa voluptatibus. Labore quam, accusantium distinctio ducimus, dolore, laudantium magnam eos soluta obcaecati eum qui aliquid eius hic cupiditate exercitationem voluptatibus sunt nisi. Nesciunt maiores nostrum facere minus delectus nobis molestias maxime nihil dignissimos quos ratione sunt cumque ex ullam aut est odio hic praesentium, possimus inventore quae laboriosam? Voluptas facilis eaque, in aliquam excepturi totam consectetur repudiandae illum animi accusantium quas non quaerat dolore. Cumque ipsum adipisci at facere harum quos beatae.</p>
+        </div>
+        <div class="box">
+            <h3>box-2</h3>
+            <p>Commodi temporibus voluptatem consequuntur ea perspiciatis atque, saepe consequatur maxime explicabo earum, rerum assumenda, vero quae! Nam quidem dicta fugit voluptatem aperiam ratione quia id minima amet alias autem nostrum, numquam, quasi repudiandae aliquam corrupti dolor nulla! Nam est fugiat laborum aliquam? Maxime, temporibus! In quasi sunt recusandae aliquid nulla doloribus animi cumque ab et quaerat provident odit placeat cum modi, quia, nisi quod eaque veritatis. Vel id quisquam illum distinctio beatae aliquid? Fuga dolore quisquam, non dolorem magni cum architecto impedit! Mollitia libero velit quibusdam amet adipisci iure, nemo veniam pariatur. Voluptatibus reiciendis facilis delectus. Unde voluptatum, at atque soluta sed ex voluptatibus voluptates veniam debitis asperiores mollitia animi tempora voluptas odio perferendis, nulla cupiditate doloremque ullam tempore quos neque magni quas corporis. Nulla sequi perspiciatis, magnam fugit accusantium pariatur odit repellat dignissimos aperiam? Hic sint quo excepturi ea inventore expedita praesentium temporibus ut, placeat ipsum, laboriosam odit reprehenderit in pariatur eaque accusantium rerum quasi animi. Quam beatae debitis assumenda quibusdam sapiente. Ab itaque quos maxime quam vel inventore! Alias vitae minus cumque. Tempore ipsum praesentium similique qui excepturi? Vel explicabo odit reprehenderit voluptatum, iste ex nihil magnam, expedita doloribus totam amet tempore doloremque vitae saepe corrupti hic aut.</p>
+        </div>
+    </body>
+</html>
